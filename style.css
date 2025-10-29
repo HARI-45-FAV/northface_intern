@@ -1,0 +1,124 @@
+/* --- GLOBAL STYLES --- */
+[data-testid="stAppViewContainer"] {
+    background-image: linear-gradient(to right top, #051937, #0f1c4a, #261e5c, #401d6c, #5f187b);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* --- SIDEBAR STYLING --- */
+[data-testid="stSidebar"] {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-right: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+[data-testid="stSidebar"] .st-emotion-cache-17lntch { /* Welcome message styling */
+    color: white;
+}
+
+/* --- HIDE DEFAULT RADIO BUTTONS & STYLE OUR OWN --- */
+[data-testid="stRadio"] label {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 16px;
+    color: #d3d3d3; /* Light gray for inactive items */
+}
+
+[data-testid="stRadio"] input[type="radio"] {
+    display: none; /* Hide the actual radio button */
+}
+
+/* Style for the selected nav item */
+[data-testid="stRadio"] label:has(input:checked) {
+    background-color: rgba(138, 43, 226, 0.3); /* Semi-transparent purple */
+    color: white;
+    font-weight: bold;
+}
+
+/* Hover effect for nav items */
+[data-testid="stRadio"] label:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Add some space between nav items */
+[data-testid="stRadio"] > div {
+    gap: 10px;
+}
+
+
+/* --- MAIN CONTENT STYLING --- */
+/* Style for all tabs */
+[data-testid="stTabs"] {
+    background-color: transparent;
+}
+[data-testid="stTabs"] button {
+    color: #d3d3d3;
+}
+/* Style for the selected tab */
+[data-testid="stTabs"] button[aria-selected="true"] {
+    background-color: transparent;
+    color: white;
+    border-bottom: 2px solid #8a2be2; /* Purple underline */
+}
+
+/* Style for input boxes and select boxes */
+[data-testid="stTextInput"] input, [data-testid="stSelectbox"] div[data-baseweb="select"] > div {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Style for dataframes */
+[data-testid="stDataFrame"] {
+    background-color: transparent;
+}
+
+
+/* --- UTILITY CLASSES (from login page) --- */
+.glassmorphism {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.gradient-text {
+    font-weight: 700;
+    background: -webkit-linear-gradient(45deg, #8a2be2, #ff1493);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+div[data-testid="stButton"] > button {
+    background-color: #8a2be2;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+div[data-testid="stButton"] > button:hover {
+    background-color: #ff1493;
+    color: white;
+}
+div[data-testid="stMetric"] {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 1rem;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+}
+div[data-testid="stMetricLabel"] { color: #d3d3d3; }
+div[data-testid="stMetricValue"] { color: white; font-size: 2.5rem; font-weight: bold; }

@@ -1,0 +1,7 @@
+streamlit
+pymongo[srv]
+passlib[bcrypt]
+python-dotenv
+pandas
+bcrypt==3.2.0
+plotly
