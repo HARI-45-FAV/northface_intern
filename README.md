@@ -2,7 +2,8 @@
 
 > A next-generation, AI-integrated Human Resource Management System built using **Streamlit**, **Python**, and **MongoDB**.
 
-![HRMS Screenshot](https://placehold.co/1000x450/8a2be2/FFFFFF/png?text=HRMS+Portal+Dashboard)
+![Uploading image.png…]()
+
 
 ---
 
@@ -145,3 +146,4 @@ Developed as part of the NorthFace Internship Program.
 Thanks to the Streamlit, Plotly, and Ollama teams for their open-source tools.
 
 Supervised and guided by mentors and peers during the internship.
+
