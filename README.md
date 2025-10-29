@@ -2,8 +2,6 @@
 
 > A next-generation, AI-integrated Human Resource Management System built using **Streamlit**, **Python**, and **MongoDB**.
 
-![Uploading image.png…]()
-
 
 ---
 
@@ -146,4 +144,5 @@ Developed as part of the NorthFace Internship Program.
 Thanks to the Streamlit, Plotly, and Ollama teams for their open-source tools.
 
 Supervised and guided by mentors and peers during the internship.
+
 
