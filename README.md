@@ -66,7 +66,7 @@ Ensure you have the following installed:
 
 ### 🔧 Step 1: Clone the Repository
 ```bash
-git clone https://github.com/HARI-45-FAV/northface_intern.git
+git clone https://github.com/HARI-45-FAV/AI_ENHANCED_HRMSPORTAL.git
 cd hrms_steamlit
 ⚙️ Step 2: Configuration
 Create a .env file in the root directory:
@@ -124,8 +124,8 @@ hrms_steamlit/
     ├── employee_dashboard.py  # Employee view
     ├── leaves.py              # Leave management + AI integration
     └── profile_page.py        # User profile management
-🎓 Internship Project Summary
-This project was developed as part of an academic internship focused on integrating AI technologies into modern HR systems.
+🎓 Project Summary
+This project was developed as part of an academic focused on integrating AI technologies into modern HR systems.
 The portal demonstrates the use of Streamlit, MongoDB, and AI-powered automation to optimize HR workflows.
 
 Key Focus Areas:
@@ -138,11 +138,6 @@ Interactive data visualization using Plotly
 
 Secure authentication & role-based access control
 
-🙌 Acknowledgements
-Developed as part of the NorthFace Internship Program.
 
-Thanks to the Streamlit, Plotly, and Ollama teams for their open-source tools.
-
-Supervised and guided by mentors and peers during the internship.
 
 
